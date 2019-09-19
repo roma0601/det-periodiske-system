@@ -1,0 +1,55 @@
+.systemet{
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 5px 5px;
+  margin-top: 10px;
+}
+.span-16{
+grid-column: span 16;
+}
+.span-10{
+  grid-column: span 10;
+}
+.usynlig{
+  opacity: 0;
+}
+.span-3{
+  grid-column: span 3;
+}
+.grunnstoff{
+  border-style: solid;
+  border-radius: 6px;
+  border-color: orange;
+  transition: transform 0.5s;
+}
+.grunnstoff:hover{
+  transform: scale(1.5);
+}
+.tall, .navn{
+  text-align: center;
+}
+.tall{
+  font-size: 22px;
+}
+.edelgasser{
+  background-color: blue;
+}
+.filler{
+  background-color: pink;
+  border-radius: 10px;
+}
+.span-18{
+  grid-column: span 18;
+}
+#hidden{
+  display: none;
+}
+.edelgasser:hover #hidden{
+  display: block;
+}
+.edelgasser:hover .navn{
+  display: none;
+}
+.edelgasser:hover .tall{
+  display: none;
+}

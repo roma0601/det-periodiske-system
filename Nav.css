@@ -1,0 +1,32 @@
+nav{
+  display: flex; /* Gjør nav-baren til en flexbox */
+  justify-content: space-around;
+  background-color: #1565C0;
+  margin: auto;
+  flex-direction: row column;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  /* border-bottom: gray 2px solid; */
+  font-family: helvetica;
+}
+nav a{ /* Velger alle a-elementer som ligger inne i nav */
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+  /* background-color: #F5F5F5;
+  border: black 1px solid; */
+  transition: transform 0.2s;
+}
+nav a:hover{
+  background-color: #82b1ff;
+  transform: scale(1.2);
+}
+nav .active{
+  background-color: #0D47A1;
+  color: white;
+
+}
+body{
+  margin: 0px; /* Fjerner margen runt nettsiden */
+}
